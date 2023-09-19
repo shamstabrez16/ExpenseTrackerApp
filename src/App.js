@@ -1,5 +1,7 @@
 import Expenses from "./components/expenses/Expenses";
 
+import NewExpense from "./components/newExpense/NewExpense";
+
 const App = () => {
   const expenses = [
     {
@@ -22,13 +24,17 @@ const App = () => {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  const addExpenseDataHandler = (expenseEntertedData) => {
+    expenses.push(expenseEntertedData);
+    console.log(expenses);
+  };
   return (
-    
-   <div>
-    <h2>Let's get started!</h2>
-    <Expenses items={expenses} ></Expenses>
-   </div>
+    <div>
+      <NewExpense onAddExpenseData={addExpenseDataHandler}></NewExpense>
+      <Expenses items={expenses}></Expenses>
+    </div>
   );
-}
+};
 
 export default App;
