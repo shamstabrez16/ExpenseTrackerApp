@@ -1,5 +1,6 @@
 #ExpenseTrackerApp
 
+![image](https://github.com/shamstabrez16/ExpenseTrackerApp/assets/12733189/b416a381-435e-43a8-80d4-668cd9dd0e3a)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,5 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-![image](https://github.com/shamstabrez16/ExpenseTrackerApp/assets/12733189/24b8c1ec-1cc8-42a1-ac22-a40ccce7c78e)
+
+
+
 
