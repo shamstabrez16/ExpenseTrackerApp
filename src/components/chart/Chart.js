@@ -3,12 +3,8 @@ import "./Chart.css";
 import ChartBar from "./ChartBar";
 
 const Chart = (props) => {
-  console.log("from chart");
-  console.log(props.dataPoints);
   const valueArray = props.dataPoints ? props.dataPoints.map(dataPoint => dataPoint.value) : [];
-  console.log(valueArray);
   let totalMaximum = valueArray.length > 0 ? Math.max(...valueArray) : 0;
-  console.log(totalMaximum);
 
   return (
     <div className="chart">
